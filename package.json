@@ -1,0 +1,26 @@
+{
+  "name": "fort-payment-gateway",
+  "version": "1.0.0",
+  "description": "The gateway for FORT NFT fiat payments",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start":"node index.js"
+  },
+  "keywords": [
+    "fort",
+    "nft",
+    "stripe",
+    "payment",
+    "gateway"
+  ],
+  "author": "a5node",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "stripe": "^12.11.0"
+  }
+}
